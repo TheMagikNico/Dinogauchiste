@@ -1,6 +1,9 @@
 (() => {
   "use strict";
-  const RANGES = { "24h": 24 * 3600e3, "7j": 7 * 86400e3, "30j": 30 * 86400e3 };
+  // Fenêtres exclusives [âge min, âge max[ : un article n'apparaît que dans UNE page.
+  // 24h : moins de 24 h · 7j : de 24 h à 7 jours · 30j : de 7 à 30 jours.
+  const H = 3600e3, D = 24 * H;
+  const RANGES = { "24h": [0, D], "7j": [D, 7 * D], "30j": [7 * D, 30 * D] };
   const REFRESH_MS = 5 * 60e3;
   const range = document.body.dataset.range || "24h";
   const grid = document.getElementById("grid");
@@ -118,8 +121,11 @@
   dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
 
   function render() {
-    const limit = Date.now() - RANGES[range];
-    const list = items.filter((x) => new Date(x.date).getTime() >= limit);
+    const [minAge, maxAge] = RANGES[range];
+    const list = items.filter((x) => {
+      const age = Date.now() - new Date(x.date).getTime();
+      return age >= minAge && age < maxAge;
+    });
     grid.replaceChildren(...list.map(card));
     empty.hidden = list.length > 0;
     statusEl.textContent = generatedAt
