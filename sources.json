@@ -13,6 +13,9 @@
     {"name": "Médiacités",              "url": "https://www.mediacites.fr/feed/",                                 "society_only": true,  "enabled": true},
     {"name": "Rue89 Lyon",              "url": "https://www.rue89lyon.fr/feed/",                                  "society_only": false, "enabled": true},
     {"name": "Blast",                   "url": "https://www.blast-info.fr/feed",                                  "society_only": false, "enabled": false}
+    {"name": "Attac France",            "url": "https://france.attac.org/spip.php?page=backend",                  "society_only": true,  "enabled": true},
+    {"name": "Greenpeace France",       "url": "https://www.greenpeace.fr/feed/",                                 "society_only": true,  "enabled": true},
+
   ],
   "keywords": [
     "société", "social", "sociale", "sociaux", "travail", "salarié", "salaire", "chômage", "emploi", "retraite", "syndicat", "grève",
@@ -23,6 +26,6 @@
     "handicap", "lgbt", "famille", "jeunesse", "quartiers", "allocations", "rsa", "sécurité sociale", "assurance maladie", 
     "extrême droite", "ultra droite", "extrême gauche", "ultra gauche", "politique", "violences policières", "garde à vue", 
     "influenceur", "influenceuse", "couvre-feu", "forces de l'ordre", "gendarmerie", "nazi", "néo-nazi", "néonazi", "réseaux", "sociaux",
-    "LFI", "droit", "vote", "assemblée", "nationale"
+    "LFI", "droit", "vote", "assemblée", "nationale", "lycéen", "insurrection", "révolte", "soulèvement", "europe"
   ]
 }
