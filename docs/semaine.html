@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bloqueur intégré : aucune ressource tierce (scripts, pubs, pisteurs) ne peut se charger. Seules les images des articles sont autorisées. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src https: data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Chronique sociale – 7 jours</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-range="7j">
+<header class="top">
+  <h1>Chronique sociale</h1>
+  <p class="tag">La société française vue par des médias indépendants</p>
+  <nav>
+    <a href="index.html">24 heures</a>
+    <a href="semaine.html" class="on">7 jours</a>
+    <a href="mois.html">30 jours</a>
+  </nav>
+  <p class="status" id="status" aria-live="polite"></p>
+</header>
+<main>
+  <div id="grid" class="grid"></div>
+  <p id="empty" class="empty" hidden>Aucun article sur cette période pour le moment.</p>
+</main>
+<dialog id="dlg"></dialog>
+<footer>Sans publicité, sans traceur. Les articles appartiennent à leurs éditeurs : suivez les liens pour les lire en entier.</footer>
+<script src="app.js"></script>
+</body>
+</html>

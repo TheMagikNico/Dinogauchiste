@@ -1,0 +1,25 @@
+{
+  "_note": "Adresses de flux à vérifier : certains médias changent leurs URLs. Un flux en erreur est simplement ignoré (voir le journal du build). society_only=true : le flux est déjà une rubrique société, pas de filtre par mots-clés.",
+  "sources": [
+    {"name": "Mediapart",               "url": "https://www.mediapart.fr/articles/feed",                         "society_only": false, "enabled": true},
+    {"name": "L'Humanité",              "url": "https://www.humanite.fr/rss/actu.rss",                            "society_only": false, "enabled": true},
+    {"name": "Libération",              "url": "https://www.liberation.fr/arc/outboundfeeds/rss-all/collection/accueil-702/?outputType=xml", "society_only": false, "enabled": true},
+    {"name": "Basta!",                  "url": "https://basta.media/spip.php?page=backend",                       "society_only": true,  "enabled": true},
+    {"name": "Reporterre",              "url": "https://reporterre.net/spip.php?page=backend",                    "society_only": false, "enabled": true},
+    {"name": "Politis",                 "url": "https://www.politis.fr/feed/",                                    "society_only": false, "enabled": true},
+    {"name": "StreetPress",             "url": "https://www.streetpress.com/rss",                                 "society_only": true,  "enabled": true},
+    {"name": "Alternatives Économiques","url": "https://www.alternatives-economiques.fr/rss.xml",                 "society_only": false, "enabled": true},
+    {"name": "Le Monde diplomatique",   "url": "https://www.monde-diplomatique.fr/rss",                           "society_only": false, "enabled": true},
+    {"name": "Médiacités",              "url": "https://www.mediacites.fr/feed/",                                 "society_only": true,  "enabled": true},
+    {"name": "Rue89 Lyon",              "url": "https://www.rue89lyon.fr/feed/",                                  "society_only": false, "enabled": true},
+    {"name": "Blast",                   "url": "https://www.blast-info.fr/feed",                                  "society_only": false, "enabled": false}
+  ],
+  "keywords": [
+    "société", "social", "sociale", "sociaux", "travail", "salarié", "salaire", "chômage", "emploi", "retraite", "syndicat", "grève",
+    "logement", "loyer", "expulsion", "sans-abri", "précarité", "pauvreté", "inégalités", "santé", "hôpital", "soignant", "école",
+    "enseignant", "éducation", "université", "étudiant", "justice", "police", "prison", "violences", "féminicide", "féminisme",
+    "égalité", "discrimination", "racisme", "antisémitisme", "islamophobie", "immigration", "migrant", "réfugié", "sans-papiers",
+    "écologie", "climat", "agriculteur", "services publics", "droits", "liberté", "manifestation", "mobilisation", "culture",
+    "handicap", "lgbt", "famille", "jeunesse", "quartiers", "allocations", "rsa", "sécurité sociale", "assurance maladie"
+  ]
+}
