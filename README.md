@@ -1,4 +1,4 @@
-# Chronique sociale – newsletter web (société française)
+# Dinogauchiste – newsletter web (société française)
 
 Site statique, 3 pages : `index.html` (24 h), `semaine.html` (7 jours), `mois.html` (30 jours).
 Pas de publicité, pas de traceur, pas de script tiers (politique CSP dans chaque page).
