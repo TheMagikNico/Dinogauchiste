@@ -12,10 +12,9 @@
     {"name": "Le Monde diplomatique",   "url": "https://www.monde-diplomatique.fr/rss",                           "society_only": false, "enabled": true},
     {"name": "Médiacités",              "url": "https://www.mediacites.fr/feed/",                                 "society_only": true,  "enabled": true},
     {"name": "Rue89 Lyon",              "url": "https://www.rue89lyon.fr/feed/",                                  "society_only": false, "enabled": true},
-    {"name": "Blast",                   "url": "https://www.blast-info.fr/feed",                                  "society_only": false, "enabled": false}
     {"name": "Attac France",            "url": "https://france.attac.org/spip.php?page=backend",                  "society_only": true,  "enabled": true},
     {"name": "Greenpeace France",       "url": "https://www.greenpeace.fr/feed/",                                 "society_only": true,  "enabled": true},
-
+    {"name": "Blast",                   "url": "https://www.blast-info.fr/feed",                                  "society_only": false, "enabled": false}
   ],
   "keywords": [
     "société", "social", "sociale", "sociaux", "travail", "salarié", "salaire", "chômage", "emploi", "retraite", "syndicat", "grève",
