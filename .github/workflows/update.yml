@@ -2,7 +2,7 @@ name: Mise à jour des articles
 
 on:
   schedule:
-    - cron: "1,11,21,31,41,51 * * * *"   # toutes les heures
+    - cron: "17,47 * * * *"   # toutes les heures
   workflow_dispatch:        # lancement manuel possible
 
 permissions:
